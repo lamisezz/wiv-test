@@ -74,6 +74,7 @@ export default async function getProducts () {
       if(data) return data
     })
   )
+  
   return res.filter(r=> r != undefined)
 }
 
